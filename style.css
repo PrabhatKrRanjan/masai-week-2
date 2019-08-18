@@ -1,0 +1,108 @@
+.gheadf {
+        height: 100px; background-color: #F44336; padding: 40px; font-size: 100px; text-align: center; font-family: 'Fredericka the Great', cursive;
+   }
+.body  {
+        background-image: url(" https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
+        background-repeat: no-repeat;
+    }
+.botom {
+       height: 100px; background-color: #607D8B; padding: 40px; font-size: 30px; text-align: center;
+    }
+.topicfont {
+    font-size: 40px; font-family: 'Permanent Marker', cursive;
+}
+
+.ibimg {
+    background-image: url("https://images.unsplash.com/photo-1508854710579-5cecc3a9ff17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+}
+.ip {
+    font-family: 'Akronim', cursive; font-size: 80px; text-align: center;
+}
+.idf {
+    font-family: 'Concert One', cursive; font-size: 25px; align-self: auto; color: #00BCD4;
+}
+.ist {
+    color: #311B92; font-size: 50;
+}
+
+
+#image {
+   display:grid;
+   grid-template-columns: 500px 500px 500px  ;
+   grid-template-rows: 320px 320px 320px ;
+   grid-gap: 80px; 
+   padding: 80px;                
+}
+#imagefont {
+   font-family: 'Bangers', cursive; font-size: 80px; text-align: center;
+}
+.ifontbg {
+   height: 100px; background-color: #F44336; padding: 40px;
+}
+.ibgimg {
+   background-image: url("https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+.imfont {
+   font-family: 'Baloo Chettan', cursive; font-size: 20px; color: whitesmoke; text-align: center;
+}
+
+
+#video {
+        display:grid;
+        grid-template-columns: 560px 560px 560px  ;
+        grid-template-rows: 315px 315px 315px ;
+        grid-gap: 40px; 
+        padding: 40px;   
+
+        }
+#imagefont {
+          font-family: 'Bangers', cursive; font-size: 80px; text-align: center;
+         }
+.vfontbg {
+        height: 100px; background-color: #26C6DA; padding: 40px;
+        }
+.vbg {
+       background:#212121;
+      }
+.vfont {
+         font-family: 'Baloo Chettan', cursive; font-size: 20px; color: whitesmoke; text-align: center;
+        }
+
+
+        @media (max-width: 1280px) {
+            #video {
+                display: grid;
+                grid-template-columns: 560px 560px;
+                grid-template-columns: auto auto ;
+                grid-gap: 20px; 
+                padding: 20px;
+            }
+        }
+        @media (max-width: 900px) {
+            #video {
+                display: grid;
+                grid-template-columns:  300px;
+                grid-template-columns: auto ;
+                grid-gap: 20px; 
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 1280px) {
+            #image {
+                display: grid;
+                grid-template-columns: 500px 500px;
+                grid-template-columns: auto auto ;
+                grid-gap: 20px; 
+                padding: 20px;
+            }
+        }
+        @media (max-width: 900px) {
+            #image {
+                display: grid;
+                grid-template-columns:  300px;
+                grid-template-columns: auto ;
+                grid-gap: 20px; 
+                padding: 20px;
+            }
+        }
